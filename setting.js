@@ -8,4 +8,4 @@
 const API_BASE_URL = '',
     SSE_B = '/oca/v1/n4/chat/sendSse/sse',
     USE_LOCAL = true,
-    MINI_APP_GLOBAL_URL = USE_LOCAL ? '' : ''
+    MINI_APP_GLOBAL_URL = USE_LOCAL ? '' : 'https://mini2.jarvisbot.ai/release_20240601'
