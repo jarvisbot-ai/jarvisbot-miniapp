@@ -1,20 +1,129 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta name="--------------- Release Date ---------------" content="2024/7/3 15:59:43">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oxanium:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ramabhadra&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Teko:wght@300..700&display=swap">
-<link rel="stylesheet" href="/umi.15558776.css">
-<script src="/setting.js"></script>
-<script src="/telegram.js"></script>
-<script defer src="/encrypt_and_decode.js"></script>
-</head>
-<body>
-<div id="root"></div>
-<script src="/umi.f072bb78.js"></script>
-</body>
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Oxanium:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Bebas+Neue&family=Teko:wght@300..700&display=swap"
+            rel="stylesheet"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>JarvisBot</title>
+      <script type="module" crossorigin src="/assets/index-Dutd7Qju.js"></script>
+      <link rel="stylesheet" crossorigin href="/assets/index-pOFs5RCI.css">
+    </head>
+    <body>
+        <div id="root">
+            <style>
+                html,
+                body,
+                #root {
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    background-color: #1d1b32;
+                }
+                .glitch {
+                    margin: auto;
+                    position: relative;
+                    font-size: 25px;
+                    font-weight: 700;
+                    line-height: 1.2;
+                    color: #fff;
+                    letter-spacing: 5px;
+                    z-index: 1;
+                    animation: shift 1s ease-in-out infinite alternate;
+                }
+
+                .glitch:before,
+                .glitch:after {
+                    display: block;
+                    content: attr(data-glitch);
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    opacity: 0.8;
+                }
+
+                .glitch:before {
+                    animation: glitch 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
+                    color: #8b00ff;
+                    z-index: -1;
+                }
+
+                .glitch:after {
+                    animation: glitch 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both infinite;
+                    color: #00e571;
+                    z-index: -2;
+                }
+
+                @keyframes glitch {
+                    0% {
+                        transform: translate(0);
+                    }
+                    20% {
+                        transform: translate(-3px, 3px);
+                    }
+                    40% {
+                        transform: translate(-3px, -3px);
+                    }
+                    60% {
+                        transform: translate(3px, 3px);
+                    }
+                    80% {
+                        transform: translate(3px, -3px);
+                    }
+                    to {
+                        transform: translate(0);
+                    }
+                }
+
+                @keyframes shift {
+                    0%,
+                    40%,
+                    44%,
+                    58%,
+                    61%,
+                    65%,
+                    69%,
+                    73%,
+                    100% {
+                        transform: skewX(0deg);
+                    }
+                    41% {
+                        transform: skewX(10deg);
+                    }
+                    42% {
+                        transform: skewX(-10deg);
+                    }
+                    59% {
+                        transform: skewX(40deg) skewY(10deg);
+                    }
+                    60% {
+                        transform: skewX(-40deg) skewY(-10deg);
+                    }
+                    63% {
+                        transform: skewX(10deg) skewY(-5deg);
+                    }
+                    70% {
+                        transform: skewX(-50deg) skewY(-20deg);
+                    }
+                    71% {
+                        transform: skewX(10deg) skewY(-10deg);
+                    }
+                }
+            </style>
+            <div data-glitch="Loading..." class="glitch">Loading...</div>
+        </div>
+
+        <script src="/setting_Hqfuv.js"></script>
+        <script src="https://telegram.org/js/telegram-web-app.js"></script>
+        <!-- <script src="https://cdn.jsdelivr.net/npm/eruda"></script>
+        <script>
+            eruda.init()
+        </script> -->
+    </body>
 </html>
